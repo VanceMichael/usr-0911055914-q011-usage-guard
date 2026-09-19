@@ -1,0 +1,40 @@
+{
+  "contract": {
+    "id": "ctr-apac1-2026-v1",
+    "tenant_id": "tenant-apac-1",
+    "version": 1,
+    "currency": "USD",
+    "effective_from": "2026-01-01T00:00:00Z",
+    "effective_to": "2027-01-01T00:00:00Z",
+    "soft_limit_micros": "500000",
+    "hard_limit_micros": "1000000",
+    "throttle_rate_per_window": 10,
+    "throttle_window_seconds": 5
+  },
+  "price_tiers": [
+    {
+      "price_version": "v2026.09",
+      "model": "claude-sonnet-5",
+      "tier_from_tokens": "0",
+      "tier_to_tokens": "100000",
+      "input_price_micros_per_1k": "3000",
+      "output_price_micros_per_1k": "15000"
+    },
+    {
+      "price_version": "v2026.09",
+      "model": "claude-sonnet-5",
+      "tier_from_tokens": "100000",
+      "tier_to_tokens": null,
+      "input_price_micros_per_1k": "2400",
+      "output_price_micros_per_1k": "12000"
+    },
+    {
+      "price_version": "v2026.08",
+      "model": "gpt-5",
+      "tier_from_tokens": "0",
+      "tier_to_tokens": null,
+      "input_price_micros_per_1k": "1250",
+      "output_price_micros_per_1k": "10000"
+    }
+  ]
+}

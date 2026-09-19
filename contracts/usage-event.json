@@ -1,1 +1,9 @@
-{"tenant":"team-a","caller":"svc-demo","model":"demo","tokens":0,"idempotency_key":"u-01","occurred_at":"2026-09-01T00:00:00Z"}
+{
+  "tenant_id": "tenant-apac-1",
+  "caller_id": "svc-chat-gateway",
+  "model": "claude-sonnet-5",
+  "input_tokens": 1000,
+  "output_tokens": 500,
+  "idempotency_key": "req-01J8ZK3E7A-client-generated",
+  "occurred_at": "2026-09-19T06:00:00Z"
+}
